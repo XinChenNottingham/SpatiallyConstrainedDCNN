@@ -68,7 +68,7 @@ unet = UNet2D(n_class=2, n_layer=5, root_filters=16, use_bn=True)
 # build model
 # loss_function should like {'name': weight}
 # weight_function should like {'name': {'alpha': 1, 'beta':2}} or ['name'] / ('name') / {'name'}
-model = SimpleTFModel(unet, org_suffix, lab_suffix, dropout=0, loss_function={'balance-cross-entropy':0.7, 'sc-loss':0.3})
+model = SimpleTFModel(unet, org_suffix, lab_suffix, dropout=0, loss_function={'balance-cross-entropy':0.9, 'sc-loss':0.1})
 
 # set learning rate with step decay, every [decay_step] epoch, learning rate = [learning rate * decay_rate]
 lr = StepDecayLearningRate(learning_rate=args.learning_rate, 
