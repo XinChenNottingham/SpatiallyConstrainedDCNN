@@ -6,7 +6,7 @@ Please cite our papr if you find the code useful.
   
 Contact xin.chen@nottingham.ac.uk
 
-In this code, we only included a few example CCM images for testing the code.
+In this code, we only included a few example CCM images for testing the code."example_train.py" is the main function to train the model.
 
 Semantic image segmentation is one of the most important tasks in medical image analysis. Most state-of-the-art deep learning methods require a large number of accurately annotated examples for model training. However, accurate annotation is difficult to obtain especially in medical applications. In this paper, we propose a spatially constrained deep convolutional neural network (DCNN) to achieve smooth and robust image segmentation using inaccurately annotated labels for training. In our proposed method, image segmentation is formulated as a graph optimization problem that is solved by a DCNN model learning process. The cost function to be optimized consists of a unary term that is calculated by cross entropy measurement and a pairwise term that is based on enforcing a local label consistency. The proposed method has been evaluated based on corneal confocal microscopic (CCM) images for nerve fiber segmentation, where accurate annotations are extremely difficult to be obtained. Based on both the quantitative result of a synthetic dataset and qualitative assessment of a real dataset, the proposed method has achieved superior performance in producing high quality segmentation results even with inaccurate labels for training.
 
