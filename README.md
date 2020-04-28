@@ -3,8 +3,10 @@
 Please cite our papr if you find the code useful.
 
   N. Zhang, et al. A Spatially Constrained Deep Convolutional Neural Network for Nerve Fiber Segmentation in Corneal Confocal Microscopic Images Using Inaccurate Annotations, International Symposium on Biomedical Imaging, 2020. In press. 
+  
+Paper preprint is available here: https://arxiv.org/abs/2004.09443
 
-A video presentation is availabe here: https://youtu.be/yOSiodu9mo8 
+A video presentation is available here: https://youtu.be/yOSiodu9mo8 
   
 Contact xin.chen@nottingham.ac.uk
 
