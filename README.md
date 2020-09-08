@@ -7,6 +7,8 @@ Please cite our papr if you find the code useful.
 Paper preprint is available here: https://arxiv.org/abs/2004.09443
 
 A video presentation is available here: https://youtu.be/yOSiodu9mo8 
+
+A CCM segmentation and quantification software is available in : http://www.cs.nott.ac.uk/~pszxc/ 
   
 Contact xin.chen@nottingham.ac.uk
 
